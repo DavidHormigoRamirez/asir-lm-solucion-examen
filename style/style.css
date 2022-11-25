@@ -27,12 +27,12 @@ ul {
   list-style: none;
 }
 
-.topnav {
+.top-navigation {
   position: absolute;
   top: 5%;
   right: 10%;
 }
-.topnav a {
+.top-navigation a {
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -72,7 +72,7 @@ section {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-#artists-image-gallery {
+#artists-card-gallery {
   display: flex;
   justify-content: space-around;
   background-color: #d97373;
@@ -85,7 +85,7 @@ section {
   background-color: #f0efed;
 }
 
-.card img {
+.card > .card-image {
   width: 100%;
 }
 
@@ -93,8 +93,8 @@ section {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Content */
-.content {
+/* Card Content */
+.card-content {
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -124,14 +124,14 @@ footer {
     width: 100%;
     height: auto;
   }
-  #artists-image-gallery {
+  #artists-card-gallery {
     flex-direction: column;
   }
   .card {
     width: auto;
     margin-bottom: 25px;
   }
-  #introduccion {
+  #introduction {
     padding-left: 25px;
     padding-right: 25px;
   }
@@ -139,10 +139,10 @@ footer {
     top: 35%;
     left: 50%;
   }
-  .topnav {
+  .top-navigation {
     left: 10%;
   }
-  .topnav > a {
+  .top-navigation > a {
     padding: 5px 5px;
   }
 }
